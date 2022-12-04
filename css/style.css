@@ -1,0 +1,49 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+form input {
+  height: 40px;
+}
+
+form button {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.container-div {
+  height: 400px;
+  width: 400px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.container-div .buttonReload {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
